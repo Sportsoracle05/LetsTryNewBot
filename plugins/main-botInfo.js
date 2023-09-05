@@ -56,15 +56,15 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *ABHISHEK SURESH*
+  *SPORTS ORACLE*
 ▢ Instagram :
-  • https://instagram.com/abhishek_ser
-▢ GitHub :
-  • https://github.com/AbhishekSuresh2
-▢ Telegram : 
-  • https://t.me/Abhishek_Ser  
-▢ YouTube : 
-  • https://youtube.com/@comedymelodych8468
+  • https://instagram.com/oosfantasyleague
+▢ Application :
+  • https://bit.ly/43BQzLP
+▢ Contact : 
+  • http://wa.me/2349085771938 
+▢ WA Group : 
+  • https://chat.whatsapp.com/H26u2wz3zl65jxQfpwGigE
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
