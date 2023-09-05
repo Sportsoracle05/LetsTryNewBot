@@ -29,9 +29,9 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
   else global.db.data.chats[res].expired = now + nDays
   if (e.length) await m.reply(`✅ I Successfully Joined The Group \n\n≡ *Group Info* \n\n *Name :* ${await conn.getName(res)}\n\nThe Bot Will Exit Automatically After \n\n${msToDate(global.db.data.chats[res].expired - now)}`)
  
- if (e.length) await conn.reply(res, `*🎯 Hello Guys ABHISHEK-SER Bot Here!*
+ if (e.length) await conn.reply(res, `*🎯 Hello Guys QUEEN-ORACLE Bot Here!*
 
-@919074692450 He Is My Creator If You Have Any Doubt
++2349085771938 He Is My Creator If You Have Any Doubt
 I Was Invited By *${m.name}*`, m, {
     mentions: d
      }).then(async () => {
@@ -56,7 +56,7 @@ ${usedPrefix}help
      })
     } catch (e) {
       conn.reply(global.owner[1]+'@s.whatsapp.net', e)
-      throw `⚠️ Dont Spam Commands. Bot Number Will Get Ban`
+      throw `⚠️ Dont Spam Commands. Your Number Will Get Ban`
       }
 }
 handler.help = ['join <chat.whatsapp.com> <dias>']
