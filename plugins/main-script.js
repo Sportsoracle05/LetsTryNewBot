@@ -6,8 +6,8 @@ let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.js
   
 m.reply(`
 
-╭───❮ *🎯GIT* ❯ 
-│${_package.homepage}
+╭───❮ *🎯APP* ❯ 
+│https://bit.ly/43BQzLP
 ╰────────────⦁`.trim())
     
 }
