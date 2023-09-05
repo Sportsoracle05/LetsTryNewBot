@@ -3,7 +3,7 @@ let stikerwelgc = "./src/welgc.webp"
 let stikerbyegc = "./src/byegc.webp"
 if (command == 'welcomegc') {
 conn.sendFile(m.chat, stikerwelgc, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: ''QUEEN-ORACLE🎯', body: 'QUEEN-ORACLE☘️', sourceUrl: `https://github.com/Sportsoracle05/LetsTryNewBot`, thumbnail: imagen1}}})  
+contextInfo: { externalAdReply: { title: ''QUEEN-ORACLE', body: 'QUEEN-ORACLE☘️', sourceUrl: `https://github.com/Sportsoracle05/LetsTryNewBot`, thumbnail: imagen1}}})  
 }
 if (command == 'byegc') {
 conn.sendFile(m.chat, stikerbyegc, 'sticker.webp', null, m, false, { 
