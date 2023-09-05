@@ -3,7 +3,7 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 
     let don = `
 ≡ *DONATION*
-Share ABHISHEK-SER Bot Link And Support. Git Link https://github.com/AbhishekSuresh2/ABHISHEK-SER`
+Thanks for the love, click link below to donate 👉👇👉 http://wa.me/2349085771938`
 let img = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
 conn.sendFile(m.chat, img, 'img.jpg', don, m)
 }
