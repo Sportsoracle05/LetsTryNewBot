@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
   let [_, code] = text.match(linkRegex) || []
   if (!args[0]) throw `🎯 Send The Group Link\n\n 📌 Example:\n *${usedPrefix + command}* <linkwa> <dias>\n\n_The Number Is The Days The Bot Will Be In The Group_` 
   if (!code) throw `🎯 Link Invalid`
-  if (!args[1]) throw `🎯 Missing Number Of Fays\n\n 📌 Example:\n *${usedPrefix + command}* <linkwa> 2`
+  if (!args[1]) throw `🎯 Missing Number Of Days\n\n 📌 Example:\n *${usedPrefix + command}* <linkwa> 2`
   if (isNaN(args[1])) throw `🎯 Number Only, Representing The Days The Bot Will Be In The Group!`
   let owbot = global.owner[1] 
   m.reply(`⏱️ Wait 3 Seconds, I Will Join The Group`)
